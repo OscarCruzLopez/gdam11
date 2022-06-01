@@ -47,6 +47,11 @@ public class ListaProductos {
  * @param prod
  * @return 
  */
+  /**
+   * No implementado
+   * @param prod
+   * @return 
+   */
     public Producto addProducto(Producto prod) {
         
         if (listaP.containsKey(prod.getcode())) {
@@ -86,7 +91,7 @@ public class ListaProductos {
         }
         else{
             return listaP.get(codigo);
-        }
+        }        
     }
 /**
  * almacena los productos
@@ -96,6 +101,7 @@ public class ListaProductos {
         ArrayList<Producto> prodsList = new ArrayList<>();
         prodsList.addAll(listaP.values());
         return prodsList;
+        
     }
   /**
    * 
