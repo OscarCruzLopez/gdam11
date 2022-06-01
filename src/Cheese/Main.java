@@ -1,8 +1,8 @@
 /*
-*	grupo  :
-*	alumno :
-*	n.exp. :
-*	fecha  :
+*	grupo  : Gdam
+*	alumno : Oscar Cruz Lopez
+*	n.exp. : 7233
+*	fecha  : 01/06/2022
  */
 package Cheese;
 
